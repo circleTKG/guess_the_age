@@ -1,1 +1,2 @@
-# guess_the_age-
+# guess_the_age
+アプリの対象年齢を当てるゲームです。
