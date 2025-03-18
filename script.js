@@ -14,6 +14,10 @@ fetch("apps.json")
         showRandomApp();
     });
 
+window.onload = function(){
+    alert('App Storeに基づく年齢制限を当ててください。');
+};
+
 function showRandomApp() {
     if (usedApps.size === apps.length) {
         document.body.innerHTML = `<h1>${correctCount}/${totalCount} 正解！！</h1>`;

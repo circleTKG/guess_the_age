@@ -4,27 +4,43 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>アプリ年齢制限当てゲーム</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="https://circletkg.github.io/images/icon.png" sizes="192x192">
+    <link rel="apple-touch-icon" href="https://circletkg.github.io/images/icon.png" sizes="180x180">
+    <meta name="description" content="circleTKG">
+    <meta name="robots" content="noindex, nofollow">
+    <meta property="og:title" content="circleTKG">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://circleTKG.github.io">
+    <meta property="og:image" content="https://circleTKG.github.io/main.jpg">
+    <meta property="og:description" content="circleTKG">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic&display=swap" rel="stylesheet">
     <script defer src="script.js"></script>
 </head>
 <body>
-    <h1>アプリの年齢制限を当てよう！</h1>
-    <h3>※App Storeに基づく年齢制限を当ててください。</h3>
+    <main>
+        <section>
+            <h1>アプリの年齢制限を当てよう！</h1>
+            <br>
+            <!-- アプリ情報 -->
+            <h2 id="appName"></h2>
+            <img id="appIcon" src="" alt="アプリアイコン" style="width:100px; height:100px; display:none;">
+            <br>
+            <div id="choices"></div>
+            <p id="result"></p>
+            <br>
+            <p>
+                <button id="hintButton">hint</button>
+                <span id="hintText" style="display:none;"></span>
+            </p>
 
-    <!-- アプリ情報 -->
-    <img id="appIcon" src="" alt="アプリアイコン" style="width:100px; height:100px; display:none;">
-    <h2 id="appName"></h2>
-
-    <div id="choices"></div>
-    <p id="result"></p>
-
-    <p>
-        <button id="hintButton">hint</button>
-        <span id="hintText" style="display:none;"></span>
-    </p>
-
-    <p>
-        <a id="playStoreLink" href="" target="_blank">Play Store</a>
-        <a id="appStoreLink" href="" target="_blank">App Store</a>
-    </p>
+            <p>
+                <a id="appStoreLink" href="" target="_blank">App Store</a>
+                <a id="playStoreLink" href="" target="_blank">Play Store</a>
+            </p>
+        </section>
+    </main>
 </body>
 </html>
