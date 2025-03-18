@@ -1,6 +1,6 @@
 let apps = [];
 let usedApps = new Set();
-const ageOptions = ["3+", "7+", "9+", "12+", "17+", "18+"];
+const ageOptions = ["4+", "9+", "12+", "17+"];
 let correctCount = 0;
 let totalCount = 0;
 let currentApp = null;
@@ -28,7 +28,7 @@ function showRandomApp() {
     document.getElementById("appStoreLink").href = currentApp.app_store;
     document.getElementById("playStoreLink").href = currentApp.play_store;
     document.getElementById("result").textContent = "";
-    
+
     // ヒントをリセット
     hintVisible = false;
     document.getElementById("hintText").textContent = "";
@@ -71,7 +71,7 @@ function selectAnswer(age) {
 // ヒントのトグル機能
 document.getElementById("hintButton").addEventListener("click", () => {
     if (!currentApp.description) return;
-    
+
     hintVisible = !hintVisible; // 状態を反転
     document.getElementById("hintText").textContent = hintVisible ? currentApp.description : "";
     document.getElementById("hintText").style.display = hintVisible ? "block" : "none";

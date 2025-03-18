@@ -1,5 +1,5 @@
 [
-  { "name": "Minecraft", "icon": "minecraft.png", "age": "9+", "app_store": "https://apps.apple.com/jp/app/minecraft/id479516143", "play_store": "https://play.google.com/store/apps/details?id=com.mojang.minecraftpe" },
-  { "name": "TikTok", "icon": "tiktok.png", "age": "12+", "app_store": "https://apps.apple.com/jp/app/tiktok/id835599320", "play_store": "https://play.google.com/store/apps/details?id=com.zhiliaoapp.musically" },
-  { "name": "X (Twitter)", "icon": "twitter.png", "age": "17+", "app_store": "https://apps.apple.com/jp/app/x/id333903271", "play_store": "https://play.google.com/store/apps/details?id=com.twitter.android" }
+  { "name": "Minecraft", "age": "9+", "app_store": "https://apps.apple.com/jp/app/minecraft/id479516143", "play_store": "https://play.google.com/store/apps/details?id=com.mojang.minecraftpe" },
+  { "name": "TikTok", "age": "12+", "app_store": "https://apps.apple.com/jp/app/tiktok/id835599320", "play_store": "https://play.google.com/store/apps/details?id=com.zhiliaoapp.musically" },
+  { "name": "X (Twitter)", "age": "17+", "app_store": "https://apps.apple.com/jp/app/x/id333903271", "play_store": "https://play.google.com/store/apps/details?id=com.twitter.android" }
 ]
