@@ -2,4 +2,28 @@ body {
     font-family: "Zen Maru Gothic", serif;
     font-style: normal;
     background-color: azure;
+	 text-align: center;
+}
+.center {
+	 text-align: center;
+	 display: flex;
+    justify-content: center;
+}
+button {
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 15px;
+  background-color: #FF6961;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  text-decoration: none;
+  width: 20%;
+  margin: 2.5%;
+}
+img {
+	  border-radius: 24%;
 }
