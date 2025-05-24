@@ -6,6 +6,10 @@ let totalCount = 0;
 let currentApp = null;
 let hintVisible = false;
 
+window.onload = function(){
+    loadAppData();
+};
+
 function loadAppData() {
     let rssApps = [];
     let jsonApps = [];
