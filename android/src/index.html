@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>アプリ年齢制限当てゲーム</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="https://circletkg.github.io/images/icon.png" sizes="192x192">
+    <link rel="apple-touch-icon" href="https://circletkg.github.io/images/icon.png" sizes="180x180">
+    <meta name="description" content="circleTKG">
+    <meta name="robots" content="noindex, nofollow">
+    <meta property="og:title" content="circleTKG">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://circleTKG.github.io">
+    <meta property="og:image" content="https://circleTKG.github.io/main.jpg">
+    <meta property="og:description" content="circleTKG">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic&display=swap" rel="stylesheet">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <main>
+        <section>
+            <h1>アプリの年齢制限を当てよう！</h1>
+            <br>
+            <!-- アプリ情報 -->
+            <h2 id="appName"></h2>
+				<div class="center">
+            <img id="appIcon" src="" alt="アプリアイコン">
+				</div>
+            <br>
+            <div id="choices"></div>
+            <p id="result"></p>
+            <br>
+            <p>
+                <button id="hintButton">hint</button>
+                <span id="hintText" style="display:none;"></span>
+            </p>
+
+            <p>
+                <a id="appStoreLink" href="" target="_blank">App Store</a>
+                <a id="playStoreLink" href="" target="_blank">Play Store</a>
+            </p>
+            <p>※App Storeに基づいた年齢制限です。</p>
+        </section>
+    </main>
+</body>
+</html>

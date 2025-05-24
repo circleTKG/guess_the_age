@@ -2,7 +2,7 @@
   "name": "guess_the_age",
   "short_name": "guess_the_age",
   "description": "guess_the_age",
-  "start_url": "https://circletkg.github.io/guess_the_age/src/",
+  "start_url": "https://circletkg.github.io/guess_the_age/android/src/",
   "display": "standalone",
   "background_color": "#ffffff",
   "theme_color": "#ffffff",
