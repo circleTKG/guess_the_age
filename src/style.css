@@ -1,29 +1,50 @@
 body {
-    font-family: "Zen Maru Gothic", serif;
-    font-style: normal;
-    background-color: azure;
-	 text-align: center;
+  font-family: "Zen Maru Gothic", serif;
+  font-style: normal;
+  background-color: #f5f5f5;
+  text-align: center;
+  margin: 0;
+  padding: 2rem;
+  color: #333;
 }
+
 .center {
-	 text-align: center;
-	 display: flex;
-    justify-content: center;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-top: 1rem;
 }
+
 button {
-  display: inline-block;
+  display: inline-flex;
   justify-content: center;
   align-items: center;
   padding: 10px 15px;
-  background-color: #FF6961;
-  color: white;
+  background: #ffffff;
+  color: #333;
   border: none;
   border-radius: 5px;
   font-size: 16px;
-  cursor: pointer;
   text-decoration: none;
   width: 20%;
   margin: 2.5%;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.05),
+              -5px -5px 10px rgba(255, 255, 255, 0.8);
+  transition: all 0.2s ease-in-out;
 }
+
+button:active {
+  box-shadow: inset 4px 4px 8px rgba(0, 0, 0, 0.06),
+              inset -4px -4px 8px rgba(255, 255, 255, 0.7);
+  transform: translateY(1px);
+}
+
 img {
-	  border-radius: 24%;
+  border-radius: 24%;
+  box-shadow: 4px 4px 8px rgba(0,0,0,0.06),
+              -4px -4px 8px rgba(255,255,255,0.8);
+  max-width: 100%;
+  height: auto;
 }
